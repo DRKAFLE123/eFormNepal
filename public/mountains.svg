@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 170" width="360" height="170" fill="none" role="img" aria-label="Himalayan mountains with the Nepal flag on the peak">
+  <defs>
+    <radialGradient id="efn-glow" cx="50%" cy="55%" r="50%">
+      <stop offset="0" stop-color="#4c8dff" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#4c8dff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="efn-back" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d73d6"/>
+      <stop offset="1" stop-color="#1a4aa8"/>
+    </linearGradient>
+    <linearGradient id="efn-front" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a5bb8"/>
+      <stop offset="1" stop-color="#0f3a8a"/>
+    </linearGradient>
+    <linearGradient id="efn-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e0243a" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#e0243a"/>
+      <stop offset=".75" stop-color="#e0243a"/>
+      <stop offset="1" stop-color="#e0243a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Soft glow -->
+  <ellipse cx="180" cy="95" rx="178" ry="78" fill="url(#efn-glow)"/>
+
+  <!-- Back range -->
+  <path d="M10 134 L70 80 L95 100 L135 62 L180 28 L225 64 L262 86 L300 72 L350 134 Z" fill="url(#efn-back)"/>
+  <!-- Shaded facet on main peak -->
+  <path d="M180 28 L225 64 L262 86 L214 92 L190 47 Z" fill="#0b2a6b" opacity=".22"/>
+
+  <!-- Front range -->
+  <path d="M0 136 L55 100 L85 117 L130 86 L180 56 L230 88 L270 113 L310 95 L360 136 Z" fill="url(#efn-front)"/>
+  <path d="M180 56 L230 88 L270 113 L215 118 Z" fill="#0b2a6b" opacity=".2"/>
+
+  <!-- Snowcaps -->
+  <g fill="#f1f7ff">
+    <path d="M180 28 L163 52 L172 48 L180 57 L190 47 L198 52 Z"/>
+    <path d="M135 62 L123 79 L130 76 L136 82 L143 75 L148 79 Z"/>
+    <path d="M70 80 L61 91 L67 89 L72 94 L77 88 L81 91 Z"/>
+    <path d="M300 72 L290 85 L296 83 L301 88 L307 82 L311 85 Z"/>
+    <path d="M130 86 L124 94 L129 92 L132 96 L137 91 Z" opacity=".85"/>
+  </g>
+
+  <!-- Flag on the peak -->
+  <line x1="180" y1="3" x2="180" y2="31" stroke="#e8eefc" stroke-width="1.6" stroke-linecap="round"/>
+  <g transform="translate(180.8 5) scale(18.5)">
+<g>
+  <path d="M0.0000 0.0000 L1.0000 0.6262 L0.2929 0.6262 L1.0000 1.3333 L0.0000 1.3333 Z" fill="#003893" stroke="#003893" stroke-width="0.086" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  <path d="M0.0000 0.0000 L1.0000 0.6262 L0.2929 0.6262 L1.0000 1.3333 L0.0000 1.3333 Z" fill="#dc143c"/>
+  <path d="M0.0422 0.3846 A0.2140 0.2140 0 0 0 0.4578 0.3846 A0.2684 0.2684 0 0 1 0.0422 0.3846 Z" fill="#fff"/>
+  <path d="M0.1858 0.4703 A0.0642 0.0642 0 0 1 0.3142 0.4703 Z" fill="#fff"/>
+  <path d="M0.3142 0.4703 L0.3885 0.4427 L0.3093 0.4457 Z M0.3093 0.4457 L0.3674 0.3918 L0.2954 0.4249 Z M0.2954 0.4249 L0.3285 0.3529 L0.2746 0.4110 Z M0.2746 0.4110 L0.2776 0.3318 L0.2500 0.4061 Z M0.2500 0.4061 L0.2224 0.3318 L0.2254 0.4110 Z M0.2254 0.4110 L0.1715 0.3529 L0.2046 0.4249 Z M0.2046 0.4249 L0.1326 0.3918 L0.1907 0.4457 Z M0.1907 0.4457 L0.1115 0.4427 L0.1858 0.4703 Z" fill="#fff"/>
+  <path d="M0.2851 0.8487 L0.2500 0.7658 L0.2149 0.8487 L0.1430 0.7945 L0.1540 0.8838 L0.0647 0.8728 L0.1189 0.9447 L0.0360 0.9798 L0.1189 1.0149 L0.0647 1.0868 L0.1540 1.0757 L0.1430 1.1651 L0.2149 1.1109 L0.2500 1.1938 L0.2851 1.1109 L0.3570 1.1651 L0.3460 1.0757 L0.4353 1.0868 L0.3811 1.0149 L0.4640 0.9798 L0.3811 0.9447 L0.4353 0.8728 L0.3460 0.8838 L0.3570 0.7945 Z" fill="#fff"/>
+</g>
+  </g>
+
+  <!-- Red swoosh -->
+  <path d="M8 146 Q180 164 352 142" stroke="url(#efn-line)" stroke-width="2.6" stroke-linecap="round"/>
+</svg>
